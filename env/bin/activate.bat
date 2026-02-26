@@ -26,7 +26,7 @@
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-@for %%i in ("/Users/abiodunmodupe/Documents/abbey_dev/liveGAI/env") do @set "VIRTUAL_ENV=%%~fi"
+@for %%i in ("/Users/abbeydupe/Documents/dupe/liveGAI/env") do @set "VIRTUAL_ENV=%%~fi"
 
 @set "VIRTUAL_ENV_PROMPT="
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (

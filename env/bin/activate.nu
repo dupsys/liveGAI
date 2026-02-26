@@ -68,7 +68,7 @@ export-env {
         }
     }
 
-    let virtual_env = '/Users/abiodunmodupe/Documents/abbey_dev/liveGAI/env'
+    let virtual_env = '/Users/abbeydupe/Documents/dupe/liveGAI/env'
     let bin = 'bin'
     let path_name = if (has-env 'Path') { 'Path' } else { 'PATH' }
     let venv_path = ([$virtual_env $bin] | path join)
